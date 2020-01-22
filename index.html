@@ -1,29 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Projet perso</title>
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body class="u-flex  u-flex--column">
     <header>
-        <h1>Welcome to my new project </h1>
+      <div>
+        <ul class="tab">
+          <li class="tab__tab">
+              <a href="###">
+                link1
+              </a>            
+          </li>
+          <li class="tab__tab">
+            link2
+          </li>
+          <li class="tab__tab">
+            link3
+          </li>
+          <li class="tab__tab">
+            link4
+          </li>
+        </ul>
+      </div>
+      <div class="container">
+        <h1 class="text--center  text--shadow">
+          Welcome to my new project
+        </h1>
+      </div>
     </header>
-    <main>
-        <div class="discussion">
-
-        </div>
-        <div>
-            <input type="text" class="message">
-        </div>
-        <div>
-            <input type="text" class="nickname">
-            <input type="submit" class="OK">
-        </div>
+    <main class="container  u-flex__item">
+      <div class="discussion"></div>
+      <div>
+        <input type="text" class="message" />
+      </div>
+      <div>
+        <input type="text" class="nickname" />
+        <input type="submit" class="OK" />
+      </div>
     </main>
     <footer>
+      <div class="container">
         &copy; Copyright 2020
+      </div>
     </footer>
-</body>
+  </body>
 </html>
