@@ -1,5 +1,13 @@
-Hello all,
+# Simple Web Project
+--------
 
-This is my first web project without react. 
 
-This is quite simple but only to have fun and to learn more.
+This Website is a simple project in html/css to present to present one of my year's projects: the *Pi carre project*.
+
+I put the code on GitHub because one of my teachers was interested in it.
+
+The site is online on the following link : [The pi carre project](http://picarreproject.surge.sh/)
+
+I enjoyed making this site, reviewing its basics is always interesting.
+
+*Aymeric* 
