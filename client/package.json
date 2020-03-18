@@ -1,0 +1,26 @@
+{
+  "name": "project_only_html",
+  "version": "1.0.0",
+  "description": "--------",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel *.html ",
+    "build": "parcel build *.html",
+    "deploy":"surge dist aymericonoel.surge.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AymericNoel/First_WebProject.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AymericNoel/First_WebProject/issues"
+  },
+  "homepage": "https://github.com/AymericNoel/First_WebProject#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "parcel-bundler": "^1.12.4"
+  }
+}
