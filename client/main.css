@@ -1,6 +1,8 @@
 .html,
 body {
   height: 100%;
+  color : #444;
+  font-family: sans-serif;
 }
 .container {
   min-width: 30em;
@@ -8,11 +10,13 @@ body {
   margin-right: auto;
   margin-left: auto;
 }
-.discussion
-{
-    overflow-y:auto;
-    border: 1px solid black;
-    height: 8em;
+.pi2{
+  margin-top: 2em;
+  margin-right: 3em;
+}
+.title{  
+  color : #111;
+  margin-top: 1.5em;
 }
 .text--center {
   text-align: center;
@@ -31,20 +35,13 @@ body {
 }
 .tab {
   list-style: none;
+  margin-top: 0.5em;;
 }
 .tab__tab{
     display:inline-block;
 }
-.video{
-  text-align: center
-}
 .title_esilv{
-  text-decoration: underline;
   margin-bottom: .5rem;
-}
-.link{
-  margin:0 0 10px 0;
-
 }
 .buttons {
   border: 0;
@@ -60,22 +57,16 @@ body {
                                     rgba(0, 0, 0, .2),
                                     rgba(0, 0, 0, .2) 30%,
                                     rgba(0, 0, 0, 0));
-  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
-              inset -2px -2px 3px rgba(0, 0, 0, .6);
-              margin-right: 2em;
-}
-
-.buttons:hover {
-  background-color: rgba(255, 0, 0, 1);
-}
-
-.buttons:active {
-  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
-              inset 2px 2px 3px rgba(0, 0, 0, .6);
+  margin-right: 5em;
+  min-width:  25em;   
+  min-height: 2em;           
 }
 .blocks {
-  display: inline-block;
-  margin-right: 7em;
-  width: 190px;
-  margin-top: 0px;
+  margin-right: 6em;
+  width : 13em;
+  margin-top: 7em;
+}
+.end_block{
+  width : 13em;
+  margin-top: 7em;
   }

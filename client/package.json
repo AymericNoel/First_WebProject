@@ -4,9 +4,9 @@
   "description": "--------",
   "main": "index.js",
   "scripts": {
-    "start": "parcel *.html ",
+    "start": "parcel index.html ",
     "build": "parcel build *.html",
-    "deploy":"surge dist aymericonoel.surge.sh"
+    "deploy":"surge dist picarreproject.surge.sh"
   },
   "repository": {
     "type": "git",

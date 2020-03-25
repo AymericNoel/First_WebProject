@@ -1,45 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <title>Projet perso</title>
-        <link
-          rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-        />
-        <link rel="stylesheet" href="main.css" />
-    </head>
-<body>
-    <header>
-        <div>
-          <ul class="tab">
-            <li class="tab__tab link">
-                <button class="buttons" onclick="window.location.href='./index.html'">homePage</button>                         
-            </li>
-            <li class="tab__tab link">
-                <button class="buttons" onclick="window.location.href='./team.html'">Our team</button>   
-            </li>
-            <li class="tab__tab link">
-                <button class="buttons" onclick="window.location.href='./school.html'">Our school</button>   
-            </li>
-          </ul>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Projet perso</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+  <link rel="stylesheet" href="main.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+</head>
+
+<body class="u-flex  u-flex--column">
+  <header>
+    <div class="text--center">
+      <ul class="tab">
+        <li class="tab__tab">
+          <button class="buttons" onclick="window.location.href='./index.html'">
+            HOMEPAGE
+          </button>
+        </li>
+        <li class="tab__tab">
+          <button class="buttons" onclick="window.location.href='./team.html'">
+            OUR TEAM
+          </button>
+        </li>
+        <li class="tab__tab">
+          <button class="buttons" onclick="window.location.href='./school.html'">
+            OUR SCHOOL
+          </button>
+        </li>
+      </ul>
+    </div>
+    <div class="container">
+      <h1 class="text--center  text--shadow  title">
+        Welcome to my new project : Our team
+      </h1>
+    </div>
+  </header>
+  <main class="container  u-flex__item">
+    <div class="text--center  row">
+      <div class="card  blocks">
+        <br />
+        <h5 class="card-title">Aymeric Noel</h5>
+        <br />
+        <img class="card-img-top"
+          src="https://www.pngitem.com/pimgs/m/247-2472306_admin-anonymous-person-icon-hd-png-download.png"
+          alt="image of somebody" />
+        <div class="card-body">
+          <p class="card-text">
+            Director of the project
+          </p>
         </div>
-        <div class="container">
-          <h1 class="text--center  text--shadow">
-            Welcome to my new project : Our team
-          </h1>          
+      </div>
+      <div class="card  blocks">
+        <br />
+        <h5 class="card-title">Matthieu Moulineau</h5>
+        <br />
+        <img class="card-img-top"
+          src="https://www.pngitem.com/pimgs/m/247-2472306_admin-anonymous-person-icon-hd-png-download.png"
+          alt="image of somebody" />
+        <div class="card-body">
+          <p class="card-text">
+            Software Engineer
+          </p>
         </div>
-      </header>
-      <main class="container  u-flex__item">
-        <div class="text--center  ">
-            <br><br><br><br><br><br>
-            <span class="blocks"><h2 class="text--center"><strong>Aymeric</strong></h2>  <img height="200" src="https://www.pngitem.com/pimgs/m/247-2472306_admin-anonymous-person-icon-hd-png-download.png" alt="image of somebody"> <p>Director of the team </p></span>
-            <span class="blocks"><h2 class="text--center"><strong>matthieu</strong> </h2> <img height="200" src="https://www.pngitem.com/pimgs/m/247-2472306_admin-anonymous-person-icon-hd-png-download.png" alt="image of somebody"> <p>Software engineer</p></span>
-            <span class="blocks"><h2 class="text--center"><strong>Mehdi</strong> </h2> <img height="200" src="https://www.pngitem.com/pimgs/m/247-2472306_admin-anonymous-person-icon-hd-png-download.png" alt="image of somebody"> <p>Cryptocurrencies engineer</p></span>
-            <span class="blocks"><h2 class="text--center"><strong>Thomas</strong> </h2> <img height="200" src="https://www.pngitem.com/pimgs/m/247-2472306_admin-anonymous-person-icon-hd-png-download.png" alt="image of somebody"> <p>Database engineer</p></span>
+      </div>
+      <div class="card  blocks">
+        <br />
+        <h5 class="card-title">Mehdi Chelaifa</h5>
+        <br />
+        <img class="card-img-top"
+          src="https://www.pngitem.com/pimgs/m/247-2472306_admin-anonymous-person-icon-hd-png-download.png"
+          alt="image of somebody" />
+        <div class="card-body">
+          <p class="card-text">
+            Cryptocurrencies Engineer
+          </p>
         </div>
-      </main>
+      </div>
+      <div class="card  end_block">
+        <br />
+        <h5 class="card-title">Thomas Lamory</h5>
+        <br />
+        <img class="card-img-top"
+          src="https://www.pngitem.com/pimgs/m/247-2472306_admin-anonymous-person-icon-hd-png-download.png"
+          alt="image of somebody" />
+        <div class="card-body">
+          <p class="card-text">
+            Database Engineer
+          </p>
+        </div>
+      </div>
+    </div>
+  </main>
 </body>
+
 </html>
