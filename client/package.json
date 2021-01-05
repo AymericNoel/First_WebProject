@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/AymericNoel/First_WebProject#readme",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "parcel-bundler": "^1.12.4"
   }
 }
